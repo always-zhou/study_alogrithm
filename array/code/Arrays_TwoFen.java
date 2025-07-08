@@ -1,11 +1,9 @@
-package bj.zxw.shuzu;
-
 /**
  * @Author zhouxianwen
  * @Date 2025/7/8 10:44
- * @Description: 算法刷题-数组篇
+ * @Description: 算法刷题-数组篇-二分查找
  */
-public class Array_test01 {
+public class Arrays_TwoFen {
 
     static int[] nums ={1,3,4,6,7,8,9};
     static int target = 9;
