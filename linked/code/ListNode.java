@@ -9,6 +9,11 @@ public class ListNode {
     ListNode next;
     ListNode(int x) { val = x; }
 
+    public ListNode(int x, ListNode head) {
+        this.val = x;
+        this.next = head;
+    }
+
     // 链式赋值（返回 this，方便连续设置 next）
     ListNode setNext(ListNode next) {
         this.next = next;
